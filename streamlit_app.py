@@ -10,3 +10,6 @@ fondo_emergencia = egreso*6
 
 st.title("Emergency fund")
 st.markdown(fondo_emergencia)
+
+if ahorro > fondo_emergencia:
+    st.balloons()
