@@ -17,4 +17,4 @@ if ahorro > fondo_emergencia:
 
 st.title("Investment")
 st.markdown("This is the amount that you have for investing:")
-st.markdown("This is the amount that you have for investing:")
+st.markdown(inversion)
