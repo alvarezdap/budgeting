@@ -12,8 +12,9 @@ inversion = ahorro - fondo_emergencia
 st.title("Emergency fund")
 st.markdown(fondo_emergencia)
 
-if ahorro > fondo_emergencia:
-    st.balloons()
+st.title('Savings potential')
+st.markdown("This is the amount that you can increase your savings monthly:")
+st.markdown(balance)
 
 st.title("Investment")
 st.markdown("This is the amount that you have for investing:")
