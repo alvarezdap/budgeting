@@ -7,9 +7,14 @@ egreso = st.slider('Spendings',0,10000)
 ahorro = st.slider('Savings',0,100000)
 balance = ingreso - egreso
 fondo_emergencia = egreso*6
+inversion = ahorro - fondo_emergencia
 
 st.title("Emergency fund")
 st.markdown(fondo_emergencia)
 
 if ahorro > fondo_emergencia:
     st.balloons()
+
+st.title("Investment")
+st.markdown("This is the amount that you have for investing:")
+st.markdown("This is the amount that you have for investing:")
